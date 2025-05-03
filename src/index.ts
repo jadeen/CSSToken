@@ -1,1 +1,1 @@
-export { CSSTokenizer } from './tokenizer.ts';
+export { CSSTokenizer } from "./tokenizer.ts";

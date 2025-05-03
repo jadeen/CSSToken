@@ -1,0 +1,35 @@
+{
+  "name": "csstoken",
+  "version": "0.0.1",
+  "description": "a css library to tokenize your css file like ts-morph",
+  "keywords": [
+    "css",
+    "tokenize"
+  ],
+  "main": "dist/index.js",
+  "exports": {
+    "import": "./dist/index.js"
+  },
+  "homepage": "https://github.com/jadeen/CSSToken#readme",
+  "bugs": {
+    "url": "https://github.com/jadeen/CSSToken/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadeen/CSSToken.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "peggy": "^5.0.0"
+  }
+}
